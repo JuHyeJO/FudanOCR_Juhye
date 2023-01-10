@@ -10,10 +10,10 @@ TRAIN:
   height: 32
   epochs: 50000
   cuda: True
-  ngpu: 4
-  workers: 8
+  ngpu: 1
+  workers: 0
   resume: ''
-  ckpt_dir: './ckpt/'
+  ckpt_dir: './checkpoint/'
   voc_type: 'all'
   saveInterval: 200
   displayInterval: 50
