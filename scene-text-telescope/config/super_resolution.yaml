@@ -2,8 +2,7 @@ MODEL:
 
 TRAIN:
   train_data_dir: [
-    './dataset/mydata/train1',
-    './dataset/mydata/train2',
+    './dataset/mydata/train',
   ]
   batch_size: 512
   width: 128
@@ -28,9 +27,7 @@ TRAIN:
 
   VAL:
     val_data_dir: [
-      './dataset/mydata/test/easy',
-      './dataset/mydata/test/medium',
-      './dataset/mydata/test/hard',
+      './dataset/mydata/validation',
     ]
     n_vis: 10
     vis_dir: 'demo'
