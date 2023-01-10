@@ -1,0 +1,13 @@
+*.pth
+mydata
+ckpt
+__pycache__
+visualization
+*.ipynb
+demo
+runs
+*.mdb
+checkpoint
+scripts
+.idea
+.DS_Store
