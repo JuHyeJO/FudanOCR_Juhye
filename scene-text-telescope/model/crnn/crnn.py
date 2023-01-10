@@ -80,7 +80,7 @@ class CRNN(nn.Module):
         return output
 
 if __name__ == '__main__':
-    crnn = CRNN(32, 3, 37, 256)
+    crnn = CRNN(32, 3, 2350, 256)
     input = torch.Tensor(32,3,16,64)
     output = crnn(input)
     print(output.shape)
